@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    /* Aplica el modelo de caja de borde a todos los elementos */
+}
+
+html {
+    font-size: 16px;
+    /* Establece el tamaño de fuente base para el documento */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* Establece la fuente predeterminada para el cuerpo del documento */
+}
+
+.label {
+    border: 2px solid black;
+    /* Aplica un borde negro de 2px alrededor del contenedor */
+    width: 270px;
+    /* Establece el ancho del contenedor */
+    margin: 20px auto;
+    /* Aplica un margen superior e inferior de 20px y centra el contenedor horizontalmente */
+    padding: 0 7px;
+    /* Aplica un relleno horizontal de 7px */
+}
+
+header h1 {
+    text-align: center;
+    /* Centra el texto del encabezado */
+    margin: -4px 0;
+    /* Elimina el margen superior e inferior del encabezado */
+    letter-spacing: 0.15px;
+    /* Añade espacio entre letras */
+}
+
+p {
+    margin: 0;
+    /* Elimina el margen de los párrafos */
+    display: flex;
+    /* Usa el modelo de caja flexible */
+    justify-content: space-between;
+    /* Distribuye el contenido del párrafo de forma equitativa */
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    /* Aplica una línea inferior gris */
+    margin: 2px 0;
+    /* Aplica un margen vertical de 2px */
+}
+
+.bold {
+    font-weight: 800;
+    /* Aplica un peso de fuente extra negrita */
+}
+
+.large {
+    height: 10px;
+    /* Establece una altura de 10px */
+}
+
+.large,
+.medium {
+    background-color: black;
+    /* Aplica un fondo negro */
+    border: 0;
+    /* Elimina el borde */
+}
+
+.medium {
+    height: 5px;
+    /* Establece una altura de 5px */
+}
+
+.small-text {
+    font-size: 0.85rem;
+    /* Establece un tamaño de fuente pequeño */
+}
+
+.calories-info {
+    display: flex;
+    /* Usa el modelo de caja flexible */
+    justify-content: space-between;
+    /* Distribuye el contenido de forma equitativa */
+    align-items: flex-end;
+    /* Alinea los elementos flexibles al final */
+}
+
+.calories-info h2 {
+    margin: 0;
+    /* Elimina el margen del encabezado */
+}
+
+.left-container p {
+    margin: -5px -2px;
+    /* Aplica un margen negativo para ajustar la posición del párrafo */
+    font-size: 2em;
+    /* Establece un tamaño de fuente grande */
+    font-weight: 700;
+    /* Aplica un peso de fuente negrita */
+}
+
+.calories-info span {
+    margin: -7px -2px;
+    /* Aplica un margen negativo para ajustar la posición del span */
+    font-size: 2.4em;
+    /* Establece un tamaño de fuente muy grande */
+    font-weight: 700;
+    /* Aplica un peso de fuente negrita */
+}
+
+.right {
+    justify-content: flex-end;
+    /* Alinea el contenido al final del contenedor */
+}
+
+.indent {
+    margin-left: 1em;
+    /* Aplica una sangría izquierda de 1em */
+}
+
+.double-indent {
+    margin-left: 2em;
+    /* Aplica una doble sangría izquierda de 2em */
+}
+
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+    /* Aplica una línea inferior gris a los párrafos excepto aquellos con la clase 'no-divider' */
+}
+
+.note {
+    font-size: 0.6rem;
+    /* Establece un tamaño de fuente muy pequeño */
+    margin: 5px 0;
+    /* Aplica un margen vertical de 5px */
+    padding: 0 8px;
+    /* Aplica un relleno horizontal de 8px */
+    text-indent: -8px;
+    /* Aplica una sangría negativa de 8px al inicio del texto */
+}

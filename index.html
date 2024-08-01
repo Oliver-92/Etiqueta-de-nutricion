@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- La declaración del tipo de documento y el idioma de la página -->
+
+<head>
+    <!-- Contiene metadatos y enlaces a hojas de estilo y fuentes -->
+    <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres como UTF-8 -->
+    <title>Nutrition Label</title>
+    <!-- Título de la página -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <!-- Enlace a una fuente externa de Google Fonts -->
+    <link href="./styles.css" rel="stylesheet">
+    <!-- Enlace a la hoja de estilo local styles.css -->
+</head>
+
+<body>
+    <!-- Contenido visible de la página -->
+    <div class="label">
+        <!-- Contenedor principal con la clase 'label' -->
+        <header>
+            <!-- Encabezado del contenedor principal -->
+            <h1 class="bold">Nutrition Facts</h1>
+            <!-- Título principal con clase 'bold' -->
+            <div class="divider"></div>
+            <!-- Divisor estilizado -->
+            <p>8 servings per container</p>
+            <!-- Texto indicando las porciones por envase -->
+            <p class="bold">Serving size <span>2/3 cup (55g)</span></p>
+            <!-- Texto indicando el tamaño de la porción con clase 'bold' -->
+        </header>
+        <div class="divider large"></div>
+        <!-- Divisor estilizado grande -->
+        <div class="calories-info">
+            <!-- Contenedor de información de calorías -->
+            <div class="left-container">
+                <h2 class="bold small-text">Amount per serving</h2>
+                <!-- Subtítulo con clase 'bold' y 'small-text' -->
+                <p>Calories</p>
+                <!-- Texto indicando calorías -->
+            </div>
+            <span>230</span>
+            <!-- Cantidad de calorías -->
+        </div>
+        <div class="divider medium"></div>
+        <!-- Divisor estilizado de tamaño mediano -->
+        <div class="daily-value small-text">
+            <!-- Contenedor de valores diarios con clase 'small-text' -->
+            <p class="bold right no-divider">% Daily Value *</p>
+            <!-- Texto de porcentaje de valor diario con varias clases -->
+            <div class="divider"></div>
+            <!-- Divisor estilizado -->
+            <p><span><span class="bold">Total Fat</span> 8g</span> <span class="bold">10%</span></p>
+            <!-- Información sobre la grasa total -->
+            <p class="indent no-divider">Saturated Fat 1g <span class="bold">5%</span></p>
+            <!-- Información sobre la grasa saturada con clase 'indent' -->
+            <div class="divider"></div>
+            <!-- Divisor estilizado -->
+            <p class="indent no-divider"><span><i>Trans</i> Fat 0g</span></p>
+            <!-- Información sobre la grasa trans con clase 'indent' -->
+            <div class="divider"></div>
+            <!-- Divisor estilizado -->
+            <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="bold">0%</span></p>
+            <!-- Información sobre el colesterol -->
+            <p><span><span class="bold">Sodium</span> 160mg</span> <span class="bold">7%</span></p>
+            <!-- Información sobre el sodio -->
+            <p><span><span class="bold">Total Carbohydrate</span> 37g</span> <span class="bold">13%</span></p>
+            <!-- Información sobre los carbohidratos totales -->
+            <p class="indent no-divider">Dietary Fiber 4g</p>
+            <!-- Información sobre la fibra dietética con clase 'indent' -->
+            <div class="divider"></div>
+            <!-- Divisor estilizado -->
+            <p class="indent no-divider">Total Sugars 12g</p>
+            <!-- Información sobre los azúcares totales con clase 'indent' -->
+            <div class="divider double-indent"></div>
+            <!-- Divisor estilizado con clase 'double-indent' -->
+            <p class="double-indent no-divider">Includes 10g Added Sugars <span class="bold">20%</span></p>
+            <!-- Información sobre los azúcares añadidos con clase 'double-indent' -->
+            <div class="divider"></div>
+            <!-- Divisor estilizado -->
+            <p class="no-divider"><span><span class="bold">Protein</span> 3g</span></p>
+            <!-- Información sobre la proteína -->
+            <div class="divider large"></div>
+            <!-- Divisor estilizado grande -->
+            <p>Vitamin D 2mcg <span>10%</span></p>
+            <!-- Información sobre la vitamina D -->
+            <p>Calcium 260mg <span>20%</span></p>
+            <!-- Información sobre el calcio -->
+            <p>Iron 8mg <span>45%</span></p>
+            <!-- Información sobre el hierro -->
+            <p class="no-divider">Potassium 235mg <span>6%</span></p>
+            <!-- Información sobre el potasio -->
+        </div>
+        <div class="divider medium"></div>
+        <!-- Divisor estilizado de tamaño mediano -->
+        <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a
+            daily diet. 2,000 calories a day is used for general nutrition advice.</p>
+        <!-- Nota explicativa sobre el valor diario -->
+    </div>
+</body>
+
+</html>
